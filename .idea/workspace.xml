@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14817d87-1428-4d6a-aace-ced2fe078c30" name="Default Changelist" comment="" />
+    <list default="true" id="14817d87-1428-4d6a-aace-ced2fe078c30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BikeRide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bicycles/models/MountainBike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bicycles/models/RoadBike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bicycles/models/MountainBikeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bicycles/models/RoadBikeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bicycles/Bicycles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bicycles/Bicycles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bicycles/BicycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bicycles/BicycleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bicycles/Bicycles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bicycles/Bicycles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bicycles/BicycleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bicycles/BicycleTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +23,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -28,6 +44,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XQvwxSTkXnvz2GImIkYFZBkH9p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,26 +52,100 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
-    <configuration name="BicycleTest.shouldAccellerate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="bicycles.models" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RoadBikeTest.shouldStop">
+    <configuration name="MountainBikeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bicycles.*" />
+          <option name="PATTERN" value="bicycles.models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bicycles" />
-      <option name="MAIN_CLASS_NAME" value="bicycles.BicycleTest" />
-      <option name="METHOD_NAME" value="shouldAccellerate" />
+      <option name="PACKAGE_NAME" value="bicycles.models" />
+      <option name="MAIN_CLASS_NAME" value="bicycles.models.MountainBikeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MountainBikeTest.shouldStop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeRide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bicycles.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bicycles.models" />
+      <option name="MAIN_CLASS_NAME" value="bicycles.models.MountainBikeTest" />
+      <option name="METHOD_NAME" value="shouldStop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoadBikeTest.shouldAccelerate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeRide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bicycles.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bicycles.models" />
+      <option name="MAIN_CLASS_NAME" value="bicycles.models.RoadBikeTest" />
+      <option name="METHOD_NAME" value="shouldAccelerate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoadBikeTest.shouldAccelerateAndBrake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeRide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bicycles.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bicycles.models" />
+      <option name="MAIN_CLASS_NAME" value="bicycles.models.RoadBikeTest" />
+      <option name="METHOD_NAME" value="shouldAccelerateAndBrake" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoadBikeTest.shouldStop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeRide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bicycles.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bicycles.models" />
+      <option name="MAIN_CLASS_NAME" value="bicycles.models.RoadBikeTest" />
+      <option name="METHOD_NAME" value="shouldStop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,7 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BicycleTest.shouldAccellerate" />
+        <item itemvalue="JUnit.RoadBikeTest.shouldStop" />
+        <item itemvalue="JUnit.RoadBikeTest.shouldAccelerateAndBrake" />
+        <item itemvalue="JUnit.RoadBikeTest.shouldAccelerate" />
+        <item itemvalue="JUnit.MountainBikeTest.shouldStop" />
+        <item itemvalue="JUnit.MountainBikeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -76,7 +171,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580991375329</updated>
-      <workItem from="1580991384929" duration="1860000" />
+      <workItem from="1580991384929" duration="3555000" />
+      <workItem from="1581323547574" duration="6077000" />
     </task>
     <servers />
   </component>
@@ -88,34 +184,70 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="311" y="58" width="847" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1580991529719" />
+    <state x="449" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1581327995270">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="449" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/67.27.1299.741@67.27.1299.741" timestamp="1581327995270" />
     <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580992473028">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1580992473028" />
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1580993180923">
+    <state x="524" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1581327290381">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1580993180923" />
-    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1580993180922">
+    <state x="524" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1581327290381" />
+    <state x="549" y="320" width="325" height="152" key="#com.intellij.refactoring.turnRefsToSuper.TurnRefsToSuperDialog" timestamp="1581324211514">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1580993180922" />
-    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1580993180920">
+    <state x="549" y="320" width="325" height="152" key="#com.intellij.refactoring.turnRefsToSuper.TurnRefsToSuperDialog/67.27.1299.741@67.27.1299.741" timestamp="1581324211514" />
+    <state x="452" y="249" width="518" height="295" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1581324160590">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1580993180920" />
-    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1580993180922">
+    <state x="452" y="249" width="518" height="295" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1299.741@67.27.1299.741" timestamp="1581324160590" />
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1581330528189">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1580993180922" />
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1581330528189" />
+    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1581330528186">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1581330528186" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1581330528185">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1581330528185" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1581330528187">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1581330528187" />
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1581328493432">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1581328493432" />
+    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1581328493431">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1581328493431" />
+    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1581328493430">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1581328493430" />
+    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1581328493431">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1581328493431" />
     <state x="205" y="31" key="SettingsEditor" timestamp="1580993152300">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1580993152300" />
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1580991385775">
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1581323544820">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1580991385775" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1581323544820" />
+    <state x="490" y="117" width="442" height="559" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581330163466">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="490" y="117" width="442" height="559" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1299.741@67.27.1299.741" timestamp="1581330163466" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
