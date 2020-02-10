@@ -2,9 +2,9 @@ package bicycles;
 
 public interface Bicycles {
 
-    public void acceleration();
-    public void brake();
-    public int currentSpeed();
-    public void stop();
+     void acceleration();
+     void brake();
+     int currentSpeed();
+     void stop();
 
 }
