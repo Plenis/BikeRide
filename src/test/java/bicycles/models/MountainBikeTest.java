@@ -26,7 +26,8 @@ class MountainBikeTest {
         bikeRide.ride();
 
         System.out.println("Current Speed: " + mountainBike.currentSpeed());
-        bikeRide.stop();
+        //bikeRide.stop();
+        mountainBike.stop();
         assertEquals(0, mountainBike.currentSpeed());
     }
 }
