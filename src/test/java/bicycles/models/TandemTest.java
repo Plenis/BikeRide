@@ -11,11 +11,20 @@ class TandemTest {
         Tandem tandem = new Tandem();
         BikeRide bikeRide = new BikeRide(tandem);
         bikeRide.ride();
-        System.out.println("Current Speed: " + tandem.currentSpeed());
+        System.out.println("Tandem Speed: " + tandem.currentSpeed());
 
         assertEquals(34, tandem.currentSpeed());
     }
 
+    @Test
+    public void shouldExecuteRideOne() {
+        Tandem tandem = new Tandem();
+        BikeRide bikeRide = new BikeRide(tandem);
+        bikeRide.rideOne();
+        System.out.println("Tandem Speed: " + tandem.currentSpeed());
+
+        assertEquals(166, tandem.currentSpeed());
+    }
 
     @Test
     public void shouldStop(){
@@ -24,6 +33,6 @@ class TandemTest {
         bikeRide.ride();
         tandem.stop();
 
-        System.out.println("Current Speed: " + tandem.currentSpeed());
+        System.out.println("Tandem Speed: " + tandem.currentSpeed());
         assertEquals(0, tandem.currentSpeed());
     }}

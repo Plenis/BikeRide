@@ -1,8 +1,7 @@
 package bicycles;
 
-import bicycles.Bicycles;
 
-public class BikeRide {
+public class BikeRide implements BikeRideOne, BikeRideTwo {
     private Bicycles bicycle;
     private int speed = 0;
 
@@ -20,20 +19,49 @@ public class BikeRide {
         this.bicycle.acceleration();
     }
 
-    public int currentSpeed(){
-        return speed;
+    public void rideOne(){
+        this.bicycle.acceleration();
+        this.bicycle.acceleration();
+        this.bicycle.acceleration();
+        this.bicycle.acceleration();
+        this.bicycle.acceleration();
+        this.bicycle.acceleration();
+        this.bicycle.acceleration();
+        this.bicycle.acceleration();
+        this.bicycle.acceleration();
+        this.bicycle.acceleration();
+        this.bicycle.acceleration();
+        this.bicycle.acceleration();
+        this.bicycle.acceleration();
+        this.bicycle.acceleration();
+        this.bicycle.brake();
+        this.bicycle.brake();
+        this.bicycle.acceleration();
+    }
+
+    public void rideTwo() {
+        this.bicycle.acceleration();
+        this.bicycle.brake();
+        this.bicycle.acceleration();
+        this.bicycle.brake();
+        this.bicycle.acceleration();
+        this.bicycle.brake();
+        this.bicycle.acceleration();
+        this.bicycle.acceleration();
+        this.bicycle.brake();
+        this.bicycle.brake();
+        this.bicycle.brake();
+        this.bicycle.brake();
+        this.bicycle.brake();
+        this.bicycle.acceleration();
+        this.bicycle.brake();
+        this.bicycle.brake();
+        this.bicycle.brake();
+        this.bicycle.brake();
     }
 
     public void stop(){
         speed = 0;
     }
 
-//    Bicycles bicycles = new Bicycles();
-//    bicycles.BikeRide bikeRide = new bicycles.BikeRide(bicycles);
-
-
-//
-//    bikeRide.ride();
-
-//System.out.println(bikeRide.currentSpeed())
 }

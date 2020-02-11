@@ -15,9 +15,32 @@ class RoadBikeTest {
         BikeRide bikeRide = new BikeRide(roadBike);
         bikeRide.ride();
 //        System.out.println(roadBike.currentSpeed());
-        System.out.println("Current Speed: " + roadBike.currentSpeed());
+        System.out.println("RoadBike Speed: " + roadBike.currentSpeed());
 
         assertEquals(36, roadBike.currentSpeed());
+    }
+
+    @Test
+    public void shouldExecuteRideOne() {
+        RoadBike roadBike = new RoadBike();
+        BikeRide bikeRide = new BikeRide(roadBike);
+        bikeRide.rideOne();
+//        System.out.println(roadBike.currentSpeed());
+        System.out.println("RoadBike Speed: " + roadBike.currentSpeed());
+
+        assertEquals(157, roadBike.currentSpeed());
+    }
+
+
+    @Test
+    public void shouldExecuteRideTwo() {
+        RoadBike roadBike = new RoadBike();
+        BikeRide bikeRide = new BikeRide(roadBike);
+        bikeRide.rideTwo();
+
+        System.out.println("RoadBike Speed: " + roadBike.currentSpeed());
+
+        assertEquals(18, roadBike.currentSpeed());
     }
 
     @Test
@@ -25,7 +48,7 @@ class RoadBikeTest {
         RoadBike roadBike = new RoadBike();
         BikeRide bikeRide = new BikeRide(roadBike);
         bikeRide.ride();
-        System.out.println("Current Speed: " + roadBike.currentSpeed());
+        System.out.println("RoadBike Speed: " + roadBike.currentSpeed());
 
         bikeRide.stop();
         assertEquals(0, roadBike.currentSpeed());
