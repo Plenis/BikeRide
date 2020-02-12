@@ -9,10 +9,11 @@ class RoadBikeTest {
 
   @Test
    public void shouldAccelerate() {
-    BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4);
+    BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4, BicycleType.RoadBike);
     BicycleFromSpec bicycles = new BicycleFromSpec(roadBikeSpec);
     BikeRide bikeRide = new BikeRideOne(bicycles);
-        bikeRide.ride();
+//      BicycleType bicycleType = new BicycleType(bicycles)
+      bikeRide.ride();
 
         System.out.println("Ride Speed: " + bikeRide.currentSpeed());
 
@@ -22,11 +23,10 @@ class RoadBikeTest {
 
     @Test
     public void shouldExecuteRideOne() {
-      BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4);
+      BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4, BicycleType.RoadBike);
       BicycleFromSpec bicycles = new BicycleFromSpec(roadBikeSpec);
       BikeRide bikeRide = new BikeRideOne(bicycles);
         bikeRide.rideOne();
-//        System.out.println(roadBike.currentSpeed());
         System.out.println("RideOne Speed: " + bikeRide.currentSpeed());
 
         assertEquals(157, bikeRide.currentSpeed());
@@ -35,7 +35,7 @@ class RoadBikeTest {
 
     @Test
     public void shouldExecuteRideTwo() {
-        BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4);
+        BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4, BicycleType.RoadBike);
         BicycleFromSpec bicycles = new BicycleFromSpec(roadBikeSpec);
         BikeRide bikeRide = new BikeRideOne(bicycles);
         bikeRide.rideTwo();
@@ -47,7 +47,7 @@ class RoadBikeTest {
 
     @Test
     public void shouldStop(){
-        BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4);
+        BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4, BicycleType.RoadBike);
         Bicycles bicycles = new BicycleFromSpec(roadBikeSpec);
         BikeRide bikeRide = new BikeRideOne(bicycles);
         bikeRide.ride();

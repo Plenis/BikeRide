@@ -1,9 +1,6 @@
 package bicycles.models;
 
-import bicycles.BicycleFromSpec;
-import bicycles.BicycleSpecification;
-import bicycles.BikeRide;
-import bicycles.BikeRideOne;
+import bicycles.*;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -12,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MountainBikeTest {
     @Test
     public void shouldAccelerate() {
-        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3);
+        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3, BicycleType.MountainBike);
         BicycleFromSpec mountainBike = new BicycleFromSpec(mountainBikeSpec);
         BikeRide mBikeRide = new BikeRideOne(mountainBike);
         mBikeRide.ride();
@@ -23,7 +20,7 @@ class MountainBikeTest {
 
     @Test
     public void shouldExecuteRideOne() {
-        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3);
+        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3, BicycleType.MountainBike);
         BicycleFromSpec mountainBike = new BicycleFromSpec(mountainBikeSpec);
         BikeRide mBikeRide = new BikeRideOne(mountainBike);
         mBikeRide.rideOne();
@@ -34,7 +31,7 @@ class MountainBikeTest {
 
     @Test
     public void shouldExecuteRideTwo() {
-        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3);
+        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3, BicycleType.MountainBike);
         BicycleFromSpec mountainBike = new BicycleFromSpec(mountainBikeSpec);
         BikeRide mBikeRide = new BikeRideOne(mountainBike);
         mBikeRide.rideTwo();
@@ -45,7 +42,7 @@ class MountainBikeTest {
 
     @Test
     public void shouldStop(){
-        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3);
+        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3, BicycleType.MountainBike);
         BicycleFromSpec mountainBike = new BicycleFromSpec(mountainBikeSpec);
         BikeRide mBikeRide = new BikeRideOne(mountainBike);
         mBikeRide.ride();

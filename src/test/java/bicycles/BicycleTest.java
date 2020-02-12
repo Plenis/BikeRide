@@ -1,6 +1,5 @@
 package bicycles;
 
-import bicycles.models.MountainBike;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

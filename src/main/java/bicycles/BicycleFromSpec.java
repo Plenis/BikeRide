@@ -9,7 +9,7 @@ public class BicycleFromSpec extends BicycleBase {
     this.bikeSpec = bikeSpec;
     }
 
-    public void acceleration(                   ) {
+    public void acceleration() {
     changeSpeed(this.bikeSpec.getAccelerationSpeed());
     }
 
