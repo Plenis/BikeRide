@@ -31,16 +31,20 @@ class FunRideTest {
         FunRide funRide = new FunRide(5);
 
         BicycleSpecification roadBike = new BicycleSpecification(11, -4, BicycleType.RoadBike);
+        BicycleSpecification roadBike1 = new BicycleSpecification(11, -4, BicycleType.RoadBike);
+        BicycleSpecification roadBike2 = new BicycleSpecification(11, -4, BicycleType.RoadBike);
         BicycleSpecification mountainBike = new BicycleSpecification(5, -3, BicycleType.MountainBike);
         BicycleSpecification tandem = new BicycleSpecification(12, -7, BicycleType.Tandem);
 
         BicycleFromSpec roadBikeFromSpec = new BicycleFromSpec(roadBike);
+        BicycleFromSpec roadBikeFromSpec1 = new BicycleFromSpec(roadBike1);
+        BicycleFromSpec roadBikeFromSpec2 = new BicycleFromSpec(roadBike2);
         BicycleFromSpec mountainBikeFromSpec = new BicycleFromSpec(mountainBike);
         BicycleFromSpec tandemFromSpec = new BicycleFromSpec(tandem);
 
         funRide.accept(roadBikeFromSpec);
-        funRide.accept(roadBikeFromSpec);
-        funRide.accept(roadBikeFromSpec);
+        funRide.accept(roadBikeFromSpec1);
+        funRide.accept(roadBikeFromSpec2);
         funRide.accept(mountainBikeFromSpec);
         funRide.accept(tandemFromSpec);
 
