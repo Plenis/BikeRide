@@ -49,7 +49,7 @@ class FunRideTest {
         funRide.accept(tandemFromSpec);
 
         System.out.println("getCountForType: " + funRide.getCountForType(BicycleType.RoadBike));
-        assertEquals(3, funRide.getCountForType(BicycleType.RoadBike));
+       assertEquals(3, funRide.getCountForType(BicycleType.RoadBike));
     }
 
     @Test
