@@ -1,4 +1,6 @@
 package bicycles;
+//import bicycles.BicycleType;
+//import bicycles.BicycleSpecification;
 
 public class BicycleFromSpec extends BicycleBase {
 
@@ -15,5 +17,9 @@ public class BicycleFromSpec extends BicycleBase {
 
     public void brake() {
    changeSpeed( this.bikeSpec.getBrakeSpeed());
+    }
+
+    public BicycleType getBicycleType() {
+        return bikeSpec.bicycleType;
     }
 }

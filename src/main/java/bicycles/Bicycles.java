@@ -6,5 +6,8 @@ public interface Bicycles {
      void brake();
      int currentSpeed();
      void stop();
+     BicycleType getBicycleType();
 
+//     boolean contains(Bicycles bicycle);
+//     void accept();
 }
