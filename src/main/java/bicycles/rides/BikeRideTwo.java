@@ -1,11 +1,11 @@
 package bicycles.rides;
 
-import bicycles.specification.Bicycles;
+import bicycles.specification.Bicycle;
 
 public class BikeRideTwo implements BikeRide {
-    private Bicycles bicycle;
+    private Bicycle bicycle;
 
-    public BikeRideTwo(Bicycles bicycles) {
+    public BikeRideTwo(Bicycle bicycles) {
         this.bicycle = bicycles;
     }
 

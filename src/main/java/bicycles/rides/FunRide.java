@@ -1,7 +1,7 @@
 package bicycles.rides;
 
 import bicycles.models.BicycleType;
-import bicycles.specification.Bicycles;
+import bicycles.specification.Bicycle;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,20 +9,20 @@ import java.util.List;
 public class FunRide{
     int maxBikes;
     int bikeCount=0;
-    private List<Bicycles> bicycles = new ArrayList<>();
+    private List<Bicycle> bicycles = new ArrayList<>();
 
     public FunRide(int maxNumOfBikes){
         this.maxBikes = maxNumOfBikes;
     }
 
-    public void accept(Bicycles bicycle){
+    public void accept(Bicycle bicycle){
          if (!bicycles.contains(bicycle) && maxBikes > bicycles.size()){
              bicycles.add(bicycle);
          }
     }
 
     public int getCountForType(BicycleType bicycleType){
-        for (Bicycles i : bicycles){
+        for (Bicycle i : bicycles){
             if (i.getBicycleType() == bicycleType){
                 bikeCount ++;
             }

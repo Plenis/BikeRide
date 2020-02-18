@@ -6,7 +6,7 @@ import bicycles.rides.BikeRideThree;
 import bicycles.rides.BikeRideTwo;
 import bicycles.specification.BicycleFromSpec;
 import bicycles.specification.BicycleSpecification;
-import bicycles.specification.Bicycles;
+import bicycles.specification.Bicycle;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -48,7 +48,7 @@ class RoadBikeTest {
     @Test
     public void shouldStop(){
         BicycleSpecification roadBikeSpec = new BicycleSpecification(BicycleType.RoadBike);
-        Bicycles bicycles = new BicycleFromSpec(roadBikeSpec);
+        Bicycle bicycles = new BicycleFromSpec(roadBikeSpec);
         BikeRide bikeRide = new BikeRideOne(bicycles);
         bikeRide.ride();
 

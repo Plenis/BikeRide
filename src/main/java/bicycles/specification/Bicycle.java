@@ -2,7 +2,7 @@ package bicycles.specification;
 
 import bicycles.models.BicycleType;
 
-public interface Bicycles {
+public interface Bicycle {
 
      void acceleration();
      void brake();

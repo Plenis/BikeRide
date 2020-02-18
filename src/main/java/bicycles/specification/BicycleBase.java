@@ -1,6 +1,6 @@
 package bicycles.specification;
 
-public abstract class  BicycleBase  implements Bicycles {
+public abstract class  BicycleBase  implements Bicycle {
    private int speed = 0;
 
     protected void changeSpeed(int speedChange) {
