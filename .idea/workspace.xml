@@ -2,37 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14817d87-1428-4d6a-aace-ced2fe078c30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bicycles/rides/BikeRideThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bicycles/rides/BikeRideTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bicycles/rides/BikeRideTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bicycles/BicycleBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bicycles/BicycleFromSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bicycles/specification/BicycleFromSpec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bicycles/BicycleSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bicycles/specification/BicycleSpecification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bicycles/BicycleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bicycles/models/BicycleType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bicycles/Bicycles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bicycles/specification/Bicycles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bicycles/BikeRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bicycles/rides/BikeRide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bicycles/BikeRideOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bicycles/rides/BikeRideOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bicycles/FunRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bicycles/rides/FunRide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bicycles/BicycleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bicycles/FunRideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bicycles/rides/FunRideTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bicycles/models/MountainBikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bicycles/models/MountainBikeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bicycles/models/RoadBikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bicycles/models/RoadBikeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bicycles/models/TandemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bicycles/models/TandemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bicycles/BicycleBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bicycles/BicycleFromSpec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bicycles/BicycleSpecification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bicycles/BicycleType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bicycles/Bicycles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bicycles/BikeRide.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bicycles/BikeRideOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bicycles/FunRide.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bicycles/BicycleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bicycles/FunRideTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bicycles/models/MountainBikeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bicycles/models/MountainBikeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bicycles/models/RoadBikeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bicycles/models/RoadBikeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bicycles/models/TandemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bicycles/models/TandemTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bicycles/rides/BikeRideThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bicycles/rides/BikeRideThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bicycles/rides/BikeRideTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bicycles/rides/BikeRideTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +188,7 @@
       <workItem from="1581677045978" duration="8175000" />
       <workItem from="1581931743954" duration="18066000" />
       <workItem from="1581965349255" duration="1949000" />
-      <workItem from="1582011734759" duration="12755000" />
+      <workItem from="1582011734759" duration="13899000" />
     </task>
     <servers />
   </component>
@@ -276,28 +248,28 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="452" y="249" width="518" height="295" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1299.741@67.27.1299.741" timestamp="1581324160590" />
-    <state width="1318" height="187" key="GridCell.Tab.0.bottom" timestamp="1582030094021">
+    <state width="1318" height="187" key="GridCell.Tab.0.bottom" timestamp="1582030507327">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1318" height="187" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582030094021" />
+    <state width="1318" height="187" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582030507327" />
     <state width="1318" height="228" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1581957502725" />
     <state width="1318" height="129" key="GridCell.Tab.0.bottom/67.27.2665.741@67.27.2665.741" timestamp="1581951151764" />
-    <state width="1318" height="187" key="GridCell.Tab.0.center" timestamp="1582030094021">
+    <state width="1318" height="187" key="GridCell.Tab.0.center" timestamp="1582030507326">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1318" height="187" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582030094021" />
+    <state width="1318" height="187" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582030507326" />
     <state width="1318" height="228" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1581957502723" />
     <state width="1318" height="129" key="GridCell.Tab.0.center/67.27.2665.741@67.27.2665.741" timestamp="1581951151763" />
-    <state width="1318" height="187" key="GridCell.Tab.0.left" timestamp="1582030094021">
+    <state width="1318" height="187" key="GridCell.Tab.0.left" timestamp="1582030507326">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1318" height="187" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582030094021" />
+    <state width="1318" height="187" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582030507326" />
     <state width="1318" height="228" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1581957502722" />
     <state width="1318" height="129" key="GridCell.Tab.0.left/67.27.2665.741@67.27.2665.741" timestamp="1581951151758" />
-    <state width="1318" height="187" key="GridCell.Tab.0.right" timestamp="1582030094021">
+    <state width="1318" height="187" key="GridCell.Tab.0.right" timestamp="1582030507326">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1318" height="187" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582030094021" />
+    <state width="1318" height="187" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582030507326" />
     <state width="1318" height="228" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1581957502724" />
     <state width="1318" height="129" key="GridCell.Tab.0.right/67.27.2665.741@67.27.2665.741" timestamp="1581951151763" />
     <state width="1318" height="228" key="GridCell.Tab.1.bottom" timestamp="1581957502728">

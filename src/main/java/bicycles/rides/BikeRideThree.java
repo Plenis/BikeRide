@@ -35,6 +35,6 @@ public class BikeRideThree implements BikeRide {
     }
 
     public void stop() {
-
+    bicycle.stop();
     }
 }
