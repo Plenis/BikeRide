@@ -1,1 +1,1 @@
-# bicycles.BikeRide
+# bicycles.rides.BikeRide

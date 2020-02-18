@@ -1,18 +1,21 @@
-package bicycles;
+package bicycles.specification;
 
 public abstract class  BicycleBase  implements Bicycles {
-   private int speed;
+   private int speed = 0;
 
     protected void changeSpeed(int speedChange) {
         speed += speedChange;
     }
 
-    @Override
     public int currentSpeed() {
+        if(speed < 0){
+            return 0;
+        } else{
+
+        }
         return speed;
     }
 
-    @Override
     public void stop() {
         speed = 0;
     }

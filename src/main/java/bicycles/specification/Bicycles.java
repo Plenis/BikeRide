@@ -1,4 +1,6 @@
-package bicycles;
+package bicycles.specification;
+
+import bicycles.models.BicycleType;
 
 public interface Bicycles {
 
@@ -8,6 +10,4 @@ public interface Bicycles {
      void stop();
      BicycleType getBicycleType();
 
-//     boolean contains(Bicycles bicycle);
-//     void accept();
 }

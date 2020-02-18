@@ -1,9 +1,7 @@
-package bicycles;
+package bicycles.rides;
 
 public interface BikeRide {
     void ride();
-    void rideOne();
-    void rideTwo();
     int currentSpeed();
     void stop();
 }

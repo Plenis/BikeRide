@@ -1,43 +1,46 @@
 package bicycles.models;
 
-import bicycles.*;
+import bicycles.rides.BikeRide;
+import bicycles.rides.BikeRideOne;
+import bicycles.rides.BikeRideThree;
+import bicycles.rides.BikeRideTwo;
+import bicycles.specification.BicycleFromSpec;
+import bicycles.specification.BicycleSpecification;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 
 class MountainBikeTest {
+
     @Test
-    public void shouldAccelerate() {
+    public void shouldExecuteBikeRideOne() {
         BicycleSpecification mountainBikeSpec = new BicycleSpecification(BicycleType.MountainBike);
         BicycleFromSpec mountainBike = new BicycleFromSpec(mountainBikeSpec);
         BikeRide mBikeRide = new BikeRideOne(mountainBike);
         mBikeRide.ride();
-        System.out.println("Ride Speed: " + mBikeRide.currentSpeed());
 
         assertEquals(14, mBikeRide.currentSpeed());
     }
 
     @Test
-    public void shouldExecuteRideOne() {
-        BicycleSpecification mountainBikeSpec = new BicycleSpecification(BicycleType.MountainBike);
+    public void shouldExecuteBikeRideTwo() {
+        BicycleSpecification mountainBikeSpec = new BicycleSpecification( BicycleType.MountainBike);
         BicycleFromSpec mountainBike = new BicycleFromSpec(mountainBikeSpec);
-        BikeRide mBikeRide = new BikeRideOne(mountainBike);
-        mBikeRide.rideOne();
-        System.out.println("RideOne Speed: " + mBikeRide.currentSpeed());
+        BikeRide mBikeRide = new BikeRideTwo(mountainBike);
+        mBikeRide.ride();
 
         assertEquals(69, mBikeRide.currentSpeed());
     }
 
     @Test
-    public void shouldExecuteRideTwo() {
+    public void shouldExecuteBikeRideThree(){
         BicycleSpecification mountainBikeSpec = new BicycleSpecification( BicycleType.MountainBike);
         BicycleFromSpec mountainBike = new BicycleFromSpec(mountainBikeSpec);
-        BikeRide mBikeRide = new BikeRideOne(mountainBike);
-        mBikeRide.rideTwo();
-        System.out.println("RideTwo Speed: " + mBikeRide.currentSpeed());
+        BikeRide mBikeRide = new BikeRideThree(mountainBike);
+        mBikeRide.ride();
 
-        assertEquals(-6, mBikeRide.currentSpeed());
+        assertEquals(0, mBikeRide.currentSpeed());
     }
 
     @Test
@@ -46,8 +49,8 @@ class MountainBikeTest {
         BicycleFromSpec mountainBike = new BicycleFromSpec(mountainBikeSpec);
         BikeRide mBikeRide = new BikeRideOne(mountainBike);
         mBikeRide.ride();
-        System.out.println("RideBikeStop Speed: " + mBikeRide.currentSpeed());
         mBikeRide.stop();
+
         assertEquals(0, mountainBike.currentSpeed());
     }
 }

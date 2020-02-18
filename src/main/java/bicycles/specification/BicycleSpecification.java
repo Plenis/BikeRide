@@ -1,4 +1,6 @@
-package bicycles;
+package bicycles.specification;
+
+import bicycles.models.BicycleType;
 
 public class BicycleSpecification {
     BicycleType bicycleType;

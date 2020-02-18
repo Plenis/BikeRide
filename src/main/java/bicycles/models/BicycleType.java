@@ -1,4 +1,4 @@
-package bicycles;
+package bicycles.models;
 
 public enum BicycleType{
     RoadBike(11, -4),

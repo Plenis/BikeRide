@@ -1,35 +1,26 @@
 package bicycles.models;
 
-import bicycles.*;
+import bicycles.rides.BikeRide;
+import bicycles.rides.BikeRideOne;
+import bicycles.rides.BikeRideThree;
+import bicycles.rides.BikeRideTwo;
+import bicycles.specification.BicycleFromSpec;
+import bicycles.specification.BicycleSpecification;
+import bicycles.specification.Bicycles;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class RoadBikeTest {
 
-  @Test
-   public void shouldAccelerate() {
-    BicycleSpecification roadBikeSpec = new BicycleSpecification(BicycleType.RoadBike);
-    BicycleFromSpec bicycles = new BicycleFromSpec(roadBikeSpec);
-    BikeRide bikeRide = new BikeRideOne(bicycles);
-//      BicycleType bicycleType = new BicycleType(bicycles)
-      bikeRide.ride();
-
-        System.out.println("Ride Speed: " + bikeRide.currentSpeed());
-
-    assertEquals(36, bikeRide.currentSpeed());
-
-  }
-
     @Test
     public void shouldExecuteRideOne() {
       BicycleSpecification roadBikeSpec = new BicycleSpecification(BicycleType.RoadBike);
       BicycleFromSpec bicycles = new BicycleFromSpec(roadBikeSpec);
       BikeRide bikeRide = new BikeRideOne(bicycles);
-        bikeRide.rideOne();
-        System.out.println("RideOne Speed: " + bikeRide.currentSpeed());
+        bikeRide.ride();
 
-        assertEquals(157, bikeRide.currentSpeed());
+        assertEquals(36, bikeRide.currentSpeed());
     }
 
 
@@ -37,10 +28,19 @@ class RoadBikeTest {
     public void shouldExecuteRideTwo() {
         BicycleSpecification roadBikeSpec = new BicycleSpecification(BicycleType.RoadBike);
         BicycleFromSpec bicycles = new BicycleFromSpec(roadBikeSpec);
-        BikeRide bikeRide = new BikeRideOne(bicycles);
-        bikeRide.rideTwo();
+        BikeRide bikeRide = new BikeRideTwo(bicycles);
+        bikeRide.ride();
 
-        System.out.println("RideTwo Speed: " + bikeRide.currentSpeed());
+        assertEquals(157, bikeRide.currentSpeed());
+    }
+
+
+    @Test
+    public void shouldExecuteRideThree() {
+        BicycleSpecification roadBikeSpec = new BicycleSpecification(BicycleType.RoadBike);
+        BicycleFromSpec bicycles = new BicycleFromSpec(roadBikeSpec);
+        BikeRide bikeRide = new BikeRideThree(bicycles);
+        bikeRide.ride();
 
         assertEquals(18, bikeRide.currentSpeed());
     }
@@ -51,7 +51,6 @@ class RoadBikeTest {
         Bicycles bicycles = new BicycleFromSpec(roadBikeSpec);
         BikeRide bikeRide = new BikeRideOne(bicycles);
         bikeRide.ride();
-        System.out.println("RoadBikeStop Speed: " + bikeRide.currentSpeed());
 
         bikeRide.stop();
         assertEquals(0, bikeRide.currentSpeed());

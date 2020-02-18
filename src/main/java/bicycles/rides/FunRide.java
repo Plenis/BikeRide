@@ -1,10 +1,14 @@
-package bicycles;
+package bicycles.rides;
+
+import bicycles.models.BicycleType;
+import bicycles.specification.Bicycles;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class FunRide{
     int maxBikes;
+    int bikeCount=0;
     private List<Bicycles> bicycles = new ArrayList<>();
 
     public FunRide(int maxNumOfBikes){
@@ -14,18 +18,13 @@ public class FunRide{
     public void accept(Bicycles bicycle){
          if (!bicycles.contains(bicycle) && maxBikes > bicycles.size()){
              bicycles.add(bicycle);
-             System.out.println("Bike Accepted");
          }
-         else System.out.println("Bike Rejected");
     }
 
     public int getCountForType(BicycleType bicycleType){
-         int bikeCount=0;
-
         for (Bicycles i : bicycles){
             if (i.getBicycleType() == bicycleType){
                 bikeCount ++;
-                System.out.println(bikeCount);
             }
         }
            return bikeCount;
