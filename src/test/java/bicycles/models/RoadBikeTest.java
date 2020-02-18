@@ -9,7 +9,7 @@ class RoadBikeTest {
 
   @Test
    public void shouldAccelerate() {
-    BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4, BicycleType.RoadBike);
+    BicycleSpecification roadBikeSpec = new BicycleSpecification(BicycleType.RoadBike);
     BicycleFromSpec bicycles = new BicycleFromSpec(roadBikeSpec);
     BikeRide bikeRide = new BikeRideOne(bicycles);
 //      BicycleType bicycleType = new BicycleType(bicycles)
@@ -23,7 +23,7 @@ class RoadBikeTest {
 
     @Test
     public void shouldExecuteRideOne() {
-      BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4, BicycleType.RoadBike);
+      BicycleSpecification roadBikeSpec = new BicycleSpecification(BicycleType.RoadBike);
       BicycleFromSpec bicycles = new BicycleFromSpec(roadBikeSpec);
       BikeRide bikeRide = new BikeRideOne(bicycles);
         bikeRide.rideOne();
@@ -35,7 +35,7 @@ class RoadBikeTest {
 
     @Test
     public void shouldExecuteRideTwo() {
-        BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4, BicycleType.RoadBike);
+        BicycleSpecification roadBikeSpec = new BicycleSpecification(BicycleType.RoadBike);
         BicycleFromSpec bicycles = new BicycleFromSpec(roadBikeSpec);
         BikeRide bikeRide = new BikeRideOne(bicycles);
         bikeRide.rideTwo();
@@ -47,7 +47,7 @@ class RoadBikeTest {
 
     @Test
     public void shouldStop(){
-        BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4, BicycleType.RoadBike);
+        BicycleSpecification roadBikeSpec = new BicycleSpecification(BicycleType.RoadBike);
         Bicycles bicycles = new BicycleFromSpec(roadBikeSpec);
         BikeRide bikeRide = new BikeRideOne(bicycles);
         bikeRide.ride();

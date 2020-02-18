@@ -3,8 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="14817d87-1428-4d6a-aace-ced2fe078c30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bicycles/FunRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bicycles/FunRide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bicycles/BicycleFromSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bicycles/BicycleFromSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bicycles/BicycleSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bicycles/BicycleSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bicycles/BicycleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bicycles/BicycleType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bicycles/FunRideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bicycles/FunRideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bicycles/models/MountainBikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bicycles/models/MountainBikeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bicycles/models/RoadBikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bicycles/models/RoadBikeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bicycles/models/TandemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bicycles/models/TandemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bicycles/BicycleSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bicycles/BicycleSpecification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bicycles/BicycleType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bicycles/BicycleType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bicycles/FunRideTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bicycles/FunRideTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bicycles/models/MountainBikeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bicycles/models/MountainBikeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bicycles/models/RoadBikeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bicycles/models/RoadBikeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bicycles/models/TandemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bicycles/models/TandemTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +87,8 @@
       <recent name="bicycles" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FunRideTest.shouldGetEnteredCount">
-    <configuration name="FunRideTest.shouldGetCountForType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FunRideTest.shouldRejectSimilarBikes">
+    <configuration name="FunRideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
         <pattern>
@@ -87,13 +98,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="bicycles" />
       <option name="MAIN_CLASS_NAME" value="bicycles.FunRideTest" />
-      <option name="METHOD_NAME" value="shouldGetCountForType" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunRideTest.shouldAcceptDifferentBikes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeRide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bicycles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bicycles" />
+      <option name="MAIN_CLASS_NAME" value="bicycles.FunRideTest" />
+      <option name="METHOD_NAME" value="shouldAcceptDifferentBikes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunRideTest.shouldGetEnteredBikeCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FunRideTest.shouldRejectSimilarBikes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
         <pattern>
@@ -103,23 +129,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="bicycles" />
       <option name="MAIN_CLASS_NAME" value="bicycles.FunRideTest" />
-      <option name="METHOD_NAME" value="shouldGetEnteredBikeCount" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunRideTest.shouldGetEnteredCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BikeRide" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bicycles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bicycles" />
-      <option name="MAIN_CLASS_NAME" value="bicycles.FunRideTest" />
-      <option name="METHOD_NAME" value="shouldGetEnteredCount" />
+      <option name="METHOD_NAME" value="shouldRejectSimilarBikes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,7 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoadBikeTest.shouldAccelerate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TandemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
         <pattern>
@@ -149,20 +159,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="bicycles.models" />
-      <option name="MAIN_CLASS_NAME" value="bicycles.models.RoadBikeTest" />
-      <option name="METHOD_NAME" value="shouldAccelerate" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="bicycles.models.TandemTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FunRideTest.shouldGetEnteredCount" />
-        <item itemvalue="JUnit.FunRideTest.shouldGetCountForType" />
-        <item itemvalue="JUnit.FunRideTest.shouldGetEnteredBikeCount" />
+        <item itemvalue="JUnit.FunRideTest.shouldRejectSimilarBikes" />
+        <item itemvalue="JUnit.FunRideTest.shouldAcceptDifferentBikes" />
+        <item itemvalue="JUnit.FunRideTest" />
+        <item itemvalue="JUnit.TandemTest" />
         <item itemvalue="JUnit.RoadBikeTest" />
-        <item itemvalue="JUnit.RoadBikeTest.shouldAccelerate" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +192,9 @@
       <workItem from="1581510116403" duration="8942000" />
       <workItem from="1581669620239" duration="4499000" />
       <workItem from="1581677045978" duration="8175000" />
-      <workItem from="1581931743954" duration="13757000" />
+      <workItem from="1581931743954" duration="18066000" />
+      <workItem from="1581965349255" duration="1949000" />
+      <workItem from="1582011734759" duration="3826000" />
     </task>
     <servers />
   </component>
@@ -208,12 +219,12 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="167" y="125" width="1099" height="543" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/67.27.1299.741@67.27.1299.741" timestamp="1581410268369" />
-    <state x="1366" y="115" width="376" height="577" key="#com.intellij.ide.util.MemberChooser" timestamp="1581938137426">
-      <screen x="67" y="27" width="2665" height="741" />
+    <state x="1847" y="91" width="376" height="577" key="#com.intellij.ide.util.MemberChooser" timestamp="1582013777917">
+      <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1847" y="91" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1581682680434" />
+    <state x="1847" y="91" width="376" height="577" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582013777917" />
     <state x="524" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1581436035082" />
-    <state x="1366" y="115" width="376" height="577" key="#com.intellij.ide.util.MemberChooser/67.27.2665.741@67.27.2665.741" timestamp="1581938137426" />
+    <state x="1366" y="115" width="376" height="577" key="#com.intellij.ide.util.MemberChooser/67.27.2665.741@67.27.2665.741" timestamp="1581952548175" />
     <state x="469" y="257" width="494" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581414757919">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -230,45 +241,49 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="452" y="249" width="518" height="295" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1299.741@67.27.1299.741" timestamp="1581324160590" />
-    <state width="1318" height="129" key="GridCell.Tab.0.bottom" timestamp="1581951151764">
-      <screen x="67" y="27" width="2665" height="741" />
+    <state width="1318" height="134" key="GridCell.Tab.0.bottom" timestamp="1582017434851">
+      <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1251" height="44" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1581516304459" />
+    <state width="1318" height="134" key="GridCell.Tab.0.bottom/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582017434851" />
+    <state width="1318" height="228" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1581957502725" />
     <state width="1318" height="129" key="GridCell.Tab.0.bottom/67.27.2665.741@67.27.2665.741" timestamp="1581951151764" />
-    <state width="1318" height="129" key="GridCell.Tab.0.center" timestamp="1581951151763">
-      <screen x="67" y="27" width="2665" height="741" />
+    <state width="1318" height="134" key="GridCell.Tab.0.center" timestamp="1582017434851">
+      <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1251" height="44" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1581516304458" />
+    <state width="1318" height="134" key="GridCell.Tab.0.center/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582017434851" />
+    <state width="1318" height="228" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1581957502723" />
     <state width="1318" height="129" key="GridCell.Tab.0.center/67.27.2665.741@67.27.2665.741" timestamp="1581951151763" />
-    <state width="1318" height="129" key="GridCell.Tab.0.left" timestamp="1581951151758">
-      <screen x="67" y="27" width="2665" height="741" />
+    <state width="1318" height="134" key="GridCell.Tab.0.left" timestamp="1582017434851">
+      <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1251" height="44" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1581516304457" />
+    <state width="1318" height="134" key="GridCell.Tab.0.left/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582017434851" />
+    <state width="1318" height="228" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1581957502722" />
     <state width="1318" height="129" key="GridCell.Tab.0.left/67.27.2665.741@67.27.2665.741" timestamp="1581951151758" />
-    <state width="1318" height="129" key="GridCell.Tab.0.right" timestamp="1581951151763">
-      <screen x="67" y="27" width="2665" height="741" />
+    <state width="1318" height="134" key="GridCell.Tab.0.right" timestamp="1582017434851">
+      <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state width="1251" height="44" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1581516304458" />
+    <state width="1318" height="134" key="GridCell.Tab.0.right/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582017434851" />
+    <state width="1318" height="228" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1581957502724" />
     <state width="1318" height="129" key="GridCell.Tab.0.right/67.27.2665.741@67.27.2665.741" timestamp="1581951151763" />
-    <state width="1318" height="228" key="GridCell.Tab.1.bottom" timestamp="1581947452872">
-      <screen x="67" y="27" width="2665" height="741" />
+    <state width="1318" height="228" key="GridCell.Tab.1.bottom" timestamp="1581957502728">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="218" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1581433044561" />
+    <state width="1318" height="228" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1581957502728" />
     <state width="1318" height="228" key="GridCell.Tab.1.bottom/67.27.2665.741@67.27.2665.741" timestamp="1581947452872" />
-    <state width="1318" height="228" key="GridCell.Tab.1.center" timestamp="1581947452867">
-      <screen x="67" y="27" width="2665" height="741" />
+    <state width="1318" height="228" key="GridCell.Tab.1.center" timestamp="1581957502726">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="218" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1581433044560" />
+    <state width="1318" height="228" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1581957502726" />
     <state width="1318" height="228" key="GridCell.Tab.1.center/67.27.2665.741@67.27.2665.741" timestamp="1581947452867" />
-    <state width="1318" height="228" key="GridCell.Tab.1.left" timestamp="1581947452866">
-      <screen x="67" y="27" width="2665" height="741" />
+    <state width="1318" height="228" key="GridCell.Tab.1.left" timestamp="1581957502725">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="218" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1581433044560" />
+    <state width="1318" height="228" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1581957502725" />
     <state width="1318" height="228" key="GridCell.Tab.1.left/67.27.2665.741@67.27.2665.741" timestamp="1581947452866" />
-    <state width="1318" height="228" key="GridCell.Tab.1.right" timestamp="1581947452868">
-      <screen x="67" y="27" width="2665" height="741" />
+    <state width="1318" height="228" key="GridCell.Tab.1.right" timestamp="1581957502727">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="218" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1581433044561" />
+    <state width="1318" height="228" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1581957502727" />
     <state width="1318" height="228" key="GridCell.Tab.1.right/67.27.2665.741@67.27.2665.741" timestamp="1581947452868" />
     <state x="1581" y="40" width="926" height="686" key="Maven.ArtifactSearchDialog" timestamp="1581690919409">
       <screen x="1366" y="0" width="1366" height="768" />
@@ -282,11 +297,11 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="205" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1581408460129" />
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1581931962322">
-      <screen x="67" y="27" width="2665" height="741" />
+    <state x="1687" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1582013119254">
+      <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1687" y="204" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1581677055614" />
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1581510713213" />
+    <state x="1687" y="204" key="com.intellij.ide.util.TipDialog/67.27.1299.741/1366.0.1366.768@1366.0.1366.768" timestamp="1582013119254" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1581965442870" />
     <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.2665.741@67.27.2665.741" timestamp="1581931962322" />
     <state x="1811" y="93" width="444" height="564" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581692531801">
       <screen x="1366" y="0" width="1366" height="768" />
@@ -297,10 +312,38 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="448" y="148" width="556" height="502" key="extract.method.dialog/67.27.1299.741@67.27.1299.741" timestamp="1581512057542" />
+    <state x="411" y="27" width="600" height="741" key="refactoring.ChangeSignatureDialog" timestamp="1581956974408">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="411" y="27" width="600" height="741" key="refactoring.ChangeSignatureDialog/67.27.1299.741@67.27.1299.741" timestamp="1581956974408" />
     <state x="380" y="175" key="run.anything.popup" timestamp="1581342350119">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="380" y="175" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1581342350119" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/bicycles/BicycleBase.java</url>
+          <line>5</line>
+          <properties class="bicycles.BicycleBase" method="changeSpeed">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bicycles/BicycleBase.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bicycles/BicycleBase.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

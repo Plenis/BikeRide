@@ -20,4 +20,5 @@ public class BicycleFromSpec extends BicycleBase {
     public BicycleType getBicycleType() {
         return bikeSpec.bicycleType;
     }
+
 }

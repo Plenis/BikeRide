@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class TandemTest {
     @Test
     public void shouldAccelerate() {
-        BicycleSpecification tandemSpec = new BicycleSpecification(12, -7, BicycleType.Tandem);
+        BicycleSpecification tandemSpec = new BicycleSpecification(BicycleType.Tandem);
         BicycleFromSpec bicycles = new BicycleFromSpec(tandemSpec);
         BikeRide bikeRide = new BikeRideOne(bicycles);
 
@@ -20,7 +20,7 @@ class TandemTest {
 
     @Test
     public void shouldExecuteRideOne() {
-        BicycleSpecification tandemSpec = new BicycleSpecification(12, -7, BicycleType.Tandem);
+        BicycleSpecification tandemSpec = new BicycleSpecification(BicycleType.Tandem);
         BicycleFromSpec bicycles = new BicycleFromSpec(tandemSpec);
         BikeRide bikeRide = new BikeRideOne(bicycles);
         bikeRide.rideOne();
@@ -31,7 +31,7 @@ class TandemTest {
 
     @Test
     public void shouldExecuteRideTwo(){
-        BicycleSpecification tandemSpec = new BicycleSpecification(12, -7, BicycleType.Tandem);
+        BicycleSpecification tandemSpec = new BicycleSpecification(BicycleType.Tandem);
         BicycleFromSpec bicycles = new BicycleFromSpec(tandemSpec);
         BikeRide bikeRide = new BikeRideOne(bicycles);
         bikeRide.rideTwo();
@@ -42,7 +42,7 @@ class TandemTest {
 
     @Test
     public void shouldStop(){
-        BicycleSpecification tandemSpec = new BicycleSpecification(12, -7, BicycleType.Tandem);
+        BicycleSpecification tandemSpec = new BicycleSpecification(BicycleType.Tandem);
         BicycleFromSpec bicycles = new BicycleFromSpec(tandemSpec);
         BikeRide bikeRide = new BikeRideOne(bicycles);
         bikeRide.rideTwo();
